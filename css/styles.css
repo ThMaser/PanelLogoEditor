@@ -1,0 +1,17 @@
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(128, 20px); /* 128 columnas de 20px de ancho */
+    grid-template-rows: repeat(13, 20px); /* 13 filas de 20px de alto */
+    border: 1px solid black;
+}
+
+.cuadro {
+    width: 20px;
+    height: 20px;
+    background-color: white; /* Inicialmente blancos */
+    border: 1px solid lightgray;
+}
+
+.negro {
+    background-color: black;
+}
